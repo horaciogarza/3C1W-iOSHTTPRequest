@@ -23,7 +23,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ZeE-7M-JXT">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="ZeE-7M-JXT">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="228-xH-X53"/>
@@ -57,12 +57,12 @@
                                 <exclude reference="ZeE-7M-JXT"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="fQw-kM-39H"/>
-                                <exclude reference="zu7-fL-OUy"/>
                                 <exclude reference="1Fx-tR-uF1"/>
                                 <exclude reference="98m-rH-swO"/>
                                 <exclude reference="9jl-Og-BAV"/>
                                 <exclude reference="S4B-ne-Fen"/>
+                                <exclude reference="fQw-kM-39H"/>
+                                <exclude reference="zu7-fL-OUy"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -71,12 +71,12 @@
                                 <include reference="ZeE-7M-JXT"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="fQw-kM-39H"/>
-                                <include reference="zu7-fL-OUy"/>
                                 <exclude reference="1Fx-tR-uF1"/>
                                 <include reference="98m-rH-swO"/>
                                 <include reference="9jl-Og-BAV"/>
                                 <exclude reference="S4B-ne-Fen"/>
+                                <include reference="fQw-kM-39H"/>
+                                <include reference="zu7-fL-OUy"/>
                             </mask>
                         </variation>
                     </view>
@@ -156,10 +156,10 @@
                                 <exclude reference="XkO-Gi-Hmv"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="QB8-k2-iPZ"/>
-                                <exclude reference="YRO-Fy-6ul"/>
                                 <exclude reference="Lrb-3q-7EH"/>
                                 <exclude reference="OKJ-oN-JZE"/>
+                                <exclude reference="QB8-k2-iPZ"/>
+                                <exclude reference="YRO-Fy-6ul"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -168,10 +168,10 @@
                                 <include reference="XkO-Gi-Hmv"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="QB8-k2-iPZ"/>
-                                <include reference="YRO-Fy-6ul"/>
                                 <include reference="Lrb-3q-7EH"/>
                                 <include reference="OKJ-oN-JZE"/>
+                                <include reference="QB8-k2-iPZ"/>
+                                <include reference="YRO-Fy-6ul"/>
                             </mask>
                         </variation>
                     </view>

@@ -15,9 +15,9 @@ class JSONViewController: UIViewController {
     var completeLink:String? = ""
     
     override func viewDidLoad() {
-        asincrono()
+       
         super.viewDidLoad()
-        jsonText.text = jsonText.text
+        asincrono()
 
         // Do any additional setup after loading the view.
         
